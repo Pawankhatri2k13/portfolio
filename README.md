@@ -170,7 +170,7 @@
 
    - <b>sqlite for pagerank algorithm</b>
    - <b>sqlite for Mailing List</b>
-   - <b>sqlite for GeoSpatial Data</b
+   - <b>sqlite for GeoSpatial Data</b>
 
 2. <b>Basic Web Scraping</b>
 
