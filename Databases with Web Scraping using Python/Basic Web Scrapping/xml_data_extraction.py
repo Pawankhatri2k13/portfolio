@@ -18,5 +18,4 @@ print ('Count: ',len(tree.findall('.//count')))
 total = 0
 for r in tree.findall("./comments/comment"):
     total += int(r.find('count').text)
-
 print ('Sum: ', total)
