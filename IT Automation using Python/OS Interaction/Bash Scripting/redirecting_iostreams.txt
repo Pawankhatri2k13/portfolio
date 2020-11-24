@@ -1,0 +1,32 @@
+
+'''
+By default, input is taken from keyboard and output and error messages are sent to screen.
+However, we can redirect this behavior,
+
+################
+#Getting input from text file
+python.py < file.txt
+
+#Writing output to text file
+python.py > file.txt
+#Appending output to existing file
+python.py >> file.txt
+
+#Writing error messages to text file
+python.py 2> file.txt
+
+'''
+
+'''
+Another powerful tool for redirecting iostreams is called piping.
+Using pipes we can connect multiple commands, scripts, and other programs to make data processing pipelines.
+
+##############################
+
+#connecting multiple commands
+#below example text is sent to translate command whose output is sent to uniq command and go on..
+cat example.txt | tr ' ' '\n' | sort | uniq -c | sort -nr | head
+
+
+
+'''
