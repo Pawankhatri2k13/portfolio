@@ -1,0 +1,1 @@
+July 31 00:40:53 mycomputername CRON[86063]: ERROR Failed to start CRON job due to script error. Inform the CRON job owner!
