@@ -1,0 +1,8 @@
+Full Name, Username, Department
+Waqas Ahmed, waqas, development
+Nadeem Anjum, nadeem, management
+Saleem Anjum, saleem, operations
+Arif Rehman, arif, management
+Saleem Anjum2, saleem2, development
+shafi rehman, shafi, operations
+sami rehman, sami, chief execution officer
