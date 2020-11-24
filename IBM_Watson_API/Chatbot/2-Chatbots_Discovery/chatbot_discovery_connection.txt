@@ -1,0 +1,49 @@
+%%bash
+mkdir lab4
+cd lab4
+git clone https://github.com/sophiajwchoi/Lab4-Adding-Discovery-to-Chatbot.git
+
+
+
+%%bash
+cd /resources/lab4/Lab4-Adding-Discovery-to-Chatbot
+export npm_config_loglevel=silent
+conda config --set notify_outdated_conda false
+conda install nodejs -y
+rm -f ~/.npmrc
+npm install
+
+
+
+%%bash
+ibmcloud config --check-version=false
+ibmcloud login --no-region
+wiqas.95@gmail.com
+Q1w1s_uet
+
+
+%%bash
+ibmcloud account orgs
+
+
+%%bash
+ibmcloud target --cf-api 'https://api.us-south.cf.cloud.ibm.com' -r us-south -o wiqas
+ibmcloud account space-create 'lab4'
+
+
+
+%%bash
+cd /resources/lab4/Lab4-Adding-Discovery-to-Chatbot
+ibmcloud target -s lab4
+ibmcloud plugin install cloud-functions -f
+export npm_config_loglevel=silent
+npm install -g serverless@1.51.0
+ibmcloud fn --apihost us-south.functions.cloud.ibm.com
+ibmcloud fn list --apihost us-south.functions.cloud.ibm.com
+serverless deploy
+
+
+
+!ibmcloud fn list
+
+
