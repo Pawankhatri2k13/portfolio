@@ -1,0 +1,19 @@
+July 31 00:06:21 mycomputername kernel[96041]: WARN Failed to stat network connection
+July 31 00:09:53 mycomputername updater[46711]: WARN Computer needs to be turned off and on again
+July 31 00:12:21 mycomputername kernel[48462]: INFO Successfully connected
+July 31 00:13:53 mycomputername updater[43530]: ERROR Error running python2.exe: Segmentation Fault (core dumped)
+July 31 00:16:53 mycomputername NetworkManager[63902]: WARN Failed to start application install
+July 31 00:26:53 mycomputername CRON[86063]: INFO I'm sorry Dave. I'm afraid I can't do that
+July 31 00:27:53 mycomputername catheclient[75746]: WARN PC Load Letter
+July 31 00:33:53 mycomputername system[25588]: ERROR Out of yellow ink, specifically, even though you want grayscale
+July 31 00:36:53 mycomputername updater[73786]: WARN Packet loss
+July 31 00:37:53 mycomputername dhcpclient[87602]: INFO Googling the answer
+July 31 00:40:53 mycomputername CRON[86063]: ERROR Failed to start CRON job due to script error. Inform the CRON job owner!
+
+
+
+
+
+
+
+
